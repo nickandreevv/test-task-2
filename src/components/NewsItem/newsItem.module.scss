@@ -1,0 +1,24 @@
+.story_container {
+  border: 2px solid #fff;
+  box-shadow: 0 0 4px 0 #828282;
+  margin-bottom: 8px;
+  border-radius: 5px;
+  padding: 3px 5px;
+
+  h3 {
+    font-size: 12px;
+    font-weight: 600;
+    color: #616062;
+  }
+  .story_info {
+    font-size: 10px;
+    color: #8c8c8c;
+    span {
+      margin-right: 3px;
+    }
+  }
+}
+
+a {
+  text-decoration: none;
+}

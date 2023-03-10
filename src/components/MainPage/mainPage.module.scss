@@ -1,0 +1,24 @@
+.center_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.loading_icon {
+  width: 90px;
+  height: 90px;
+  pointer-events: none;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .loading_icon {
+    animation: loading_icon-spin infinite 5s linear;
+  }
+}
+@keyframes loading_icon-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

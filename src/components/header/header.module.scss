@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 30px;
+  background-color: #ff4500;
+  border-bottom: 4px solid #ff4500;
+  padding: 0 10px;
+  margin: 10px;
+  .header__text {
+    user-select: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    h2 {
+      color: #333;
+      font-weight: 800;
+      font-size: 25px;
+    }
+    p {
+      margin: 20px;
+      font-size: 20px;
+      font-weight: 400;
+      cursor: pointer;
+    }
+  }
+}

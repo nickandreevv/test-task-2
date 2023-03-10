@@ -1,0 +1,31 @@
+.wrap {
+  max-width: 1140px;
+}
+
+.arrow.active {
+  transform: rotate(90deg);
+}
+
+.content {
+  margin-top: 10px;
+  border: 2px solid #fff;
+  box-shadow: 0 0 4px 0 #828282;
+  .content__author {
+    color: #8c8c8c;
+    display: flex;
+    align-items: center;
+  }
+
+  .content__author_arrow {
+    margin-left: 10px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    user-select: none;
+  }
+  .content__comment {
+    margin-left: 20px;
+  }
+  .comment_text {
+    font-size: 12px;
+  }
+}
