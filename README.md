@@ -1,3 +1,13 @@
+Инструкция по запуску.
+
+1. копировать ssh ссылку. в ide git clone {ssh ссылка}
+2. в терминале npm install / yarn install
+3. npm i sass
+4. npm i moment
+5. npm i react-router react-router-dom
+Запуск localhost: npm start
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
